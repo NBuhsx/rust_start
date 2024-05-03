@@ -22,6 +22,9 @@ use expressions::run7;
 mod loop_control;
 use loop_control::run8;
 
+mod func;
+use func::run9;
+
 fn main() {
     run1();
     run2();
@@ -31,4 +34,5 @@ fn main() {
     run6();
     run7();
     run8();
+    run9();
 }
