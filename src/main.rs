@@ -25,6 +25,10 @@ use loop_control::run8;
 mod func;
 use func::run9;
 
+mod mods;
+
+use mods::run10;
+
 fn main() {
     run1();
     run2();
@@ -35,4 +39,5 @@ fn main() {
     run7();
     run8();
     run9();
+    run10();
 }
